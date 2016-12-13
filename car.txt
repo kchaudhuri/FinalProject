@@ -1,4 +1,4 @@
- Company,Model,MPG,Cylinders,Engine_Disp,Horsepower,Weight,Accelerate,Year,Origin
+Company,Model,MPG,Cylinders,Engine_Disp,Horsepower,Weight,Accelerate,Year,Origin
 amc,ambassador dpl,15.0,8,390,190,3850,8.5,70,American
 amc,gremlin,21.0,6,199,90,2648,15.0,70,American
 amc,hornet,18.0,6,199,97,2774,15.5,70,American
@@ -391,4 +391,3 @@ mazda,glc custom l,37.0,4,91,68,2025,18.2,82,Japanese
 nissan,stanza xe,36.0,4,120,88,2160,14.5,82,Japanese
 toyota,celica gt,32.0,4,144,96,2665,13.9,82,Japanese
 toyota,corolla,34.0,4,108,70,2245,16.9,82,Japanese
-
