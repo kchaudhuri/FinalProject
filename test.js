@@ -3,13 +3,13 @@
 //////////////////////////////////////////////////////
 window.onload=readTextFile();
 
-var carDetailArr = [393];
+
 var selectedCar;
 
 function listAllFunc()
 {
   document.getElementById("msg").innerHTML="";
-  for (var i = 0; i < carDetailArr.length; i++)
+  for (var i = 0; i < 393; i++)
   {
       displayItem(carDetailArr[i][1], carDetailArr[i][8]);
   }
@@ -49,7 +49,7 @@ function readTextFile()
     fileObj.send("\n");
 }
 
-
+var carDetailArr = [];
 
 function searchAuto()
 {
@@ -78,7 +78,7 @@ function searchAuto()
 
   if((company != "") && (year != ""))//search by company and year
   {
-    for (var i = 0; i < carDetailArr.length; i++)
+    for (var i = 0; i < 393; i++)
     {
       if((carDetailArr[i][0] == company) && (carDetailArr[i][8] == year))
       {
@@ -94,7 +94,7 @@ function searchAuto()
   if((company != "") && (year == ""))// search by company only
   {
 
-    for (var i = 0; i < carDetailArr.length; i++)
+    for (var i = 0; i < 393; i++)
     {
       if((carDetailArr[i][0] == company))
       {
@@ -109,7 +109,7 @@ function searchAuto()
   }
   if((company == "") && (year != ""))// search by year only
   {
-    for (var i = 0; i < carDetailArr.length; i++)
+    for (var i = 0; i < 393; i++)
     {
       if((carDetailArr[i][8] == year))
       {
