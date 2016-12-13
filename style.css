@@ -1,0 +1,100 @@
+/*<!-- Name - Kaustubh Chaudhuri -->*/
+body {
+    background-color: grey;
+    background-repeat: none;
+}
+
+#indexBod{
+  background-image: url("indexWall.png");
+  background-size: 100%;
+}
+
+
+h1,p,a,li,button,input,table,th,tr {
+  font-family:"Courier New", Courier, monospace;
+}
+
+input{
+  width: 300px;
+  height: 50px;
+  font-size: 24px;
+
+}
+
+h1,p,a,li {
+  color: white;
+}
+
+#enterDetails{
+  background-color: green;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+#allList{
+  background-color: lightblue;
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+#msg{
+  color: darkred
+}
+
+
+
+p{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#carList{
+  list-style: none;
+  font-weight: bold;
+}
+
+#allCmp{
+  font-weight: bold;
+
+}
+
+.but1{
+    display: block;
+    width: 100px;
+    height: 25px;
+    background: green;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+button, div{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+div{
+  align-content: center;
+}

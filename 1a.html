@@ -1,0 +1,33 @@
+<!-- Name - Kaustubh Chaudhuri -->
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8"/>
+    <title>Cars database</title>
+    <h1> Find your car </h1>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="test.js"></script>
+
+  </head>
+
+  <body id="a1Bod" onload="readTextFile();">
+  <div >
+    <p>Enter your details: </p>
+
+    <input type="text" id="make" class="form-control" placeholder="Company...">
+    <input type="text" id="year" class="form-control" placeholder="Year... 1970 - 82">
+    <div id="buttonSet">
+        <button type="button" id="enterDetails" onclick="searchAuto();"> Enter </button>
+        <button type="button" id="allList" onclick="listAllFunc();"> List all entries </button>
+        <a href="2a.html" class="button" id="allCmp" onclick="cmpAllFunc();"> Compare all entries > </a>
+    </div>
+    <div id="carDisplay">
+      <p id="msg"></p>
+      <li id="carList"></li>
+    </div>
+  </div>
+
+</body>
+
+</html>
